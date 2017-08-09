@@ -2,19 +2,30 @@
     font-size: 20px;
     width: 30%;
     margin-bottom: 20px;
-    color: #e87e04;
+    color: #000000;
     margin-top: 100px;
 }
 
 .eightBall {
-    background-image: url('images/blackball.png');
-    background-size:cover;
-    padding-bottom: 250px;
+    /*background-image: url('images/blackball.png');*/
+    background-image: url('images/magic8ball2.jpg');
+    background-size: cover;
     padding-top: 100px;
-    margin-bottom: 10px;
+    padding-bottom: 375px;
+    margin: auto;
+    text-align: center;
+    width: 40%;
 }
 
 #message {
-    color: #e87e04;
+    color: #FFFFFF;
     text-align: center;
+    font-size: 25px;
+    position: absolute;
+    margin: auto;
+    top: 175px;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100px;
 }
